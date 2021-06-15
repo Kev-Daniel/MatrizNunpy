@@ -38,8 +38,7 @@ print("--------------------------------------------- ")
 print("Matriz 2")   
 print(M2)
 print("--------------------------------------------- ")
-
+#Multiplicación de las matrices
 resultado= np.dot(M1,M2)
 print ("MATRIZ RESULTANTE")
 print(resultado)
-#ya esrta bien todo otra vez jajaj
