@@ -1,22 +1,24 @@
 import numpy as np
-print("que no mas se hace muchachos")
-print("Aver ya hagamos")
+print("----- MULTIPLICACION DE MATRIZ -----")
+#Ususario ingresando las dimensiones de la matriz
+#Matriz N°1
+print("Matriz 1")
 fila=int(input("Ingrese el numero de filas: " ))
 columna1 = int(input("Ingrese numero de columnas: "))
-columna2= int(input("Ingrese numero de columnas 2: "))
+print("--------------------------------------------- ")
+M1=np.zeros((fila, columna1))
+print(M1)
+#Matriz N°2
+print("--------------------------------------------- ")
+print("Matriz 2")
+fila2=int(input("Ingrese el numero de filas: " ))
+columna2= int(input("Ingrese numero de columnas: "))
+print("--------------------------------------------- ")
+M2= np.zeros((fila2,columna2))
+print(M2)
+print("--------------------------------------------- ")
+#Ingreso de valores de ususarios
+#Multiplicacion de Matrices
 
-#PRIMERA MATRIZ PEDIDA POR EL USUSARIO
-M1=[]
-print("Creacion de su primera matriz: ")
-for i in range (fila):
-  M1.append ([0]*columna1)
-for i in range(fila):
-  print(M1[i])
-  
-#SEGUNDA MATRIZ PREDIDA POR EL USUSARIO
-M2=[]
-print("Creacion de su segunda Matriz: ")
-for i in range (fila):
-  M2.append ([0]*columna2)
-for i in range (fila):
-  print(M2[i])
+
+
