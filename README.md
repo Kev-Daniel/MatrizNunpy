@@ -3,4 +3,4 @@ Integrantes
 Mateo Vera
 Lizbeth Garcia
 Kevin Veliz
-Kevin PulupaInte
+Kevin Pulupa
