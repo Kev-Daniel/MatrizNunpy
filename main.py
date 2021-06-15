@@ -6,14 +6,14 @@ print("Matriz 1")
 fila=int(input("Ingrese el numero de filas: " ))
 columna1 = int(input("Ingrese numero de columnas: "))
 print("Matriz 2")
+columna2= int(input("Ingrese numero de columnas: "))
 print("--------------------------------------------- ")
+print("Matriz 1")
 M1=np.zeros((fila, columna1))
 print(M1)
 #Matriz N°2
 print("--------------------------------------------- ")
 print("Matriz 2")
-columna2= int(input("Ingrese numero de columnas: "))
-print("--------------------------------------------- ")
 M2= np.zeros((columna1,columna2))
 print(M2)
 print("--------------------------------------------- ")
@@ -24,7 +24,8 @@ print("Ingreso de valores de la primera matriz: ")
 for i in range (fila):
   for j in range (columna1):
     M1[i][j]=float(input("Introduce el valor de (%d, %d):" %(i,j)))
-print("--------------------------------------------- ")   
+print("--------------------------------------------- ") 
+print("Matriz 1")  
 print(M1)
 print("--------------------------------------------- ")
 #Ingreso de valores para la segunda Matriz
@@ -33,10 +34,12 @@ print("Ingreso de valores de la segunda matriz: ")
 for i in range (columna1):
   for j in range (columna2):
     M2[i][j]=float(input("Introduce el valor de (%d, %d):" %(i,j)))
-print("--------------------------------------------- ")   
+print("--------------------------------------------- ")
+print("Matriz 2")   
 print(M2)
 print("--------------------------------------------- ")
 
 resultado= np.dot(M1,M2)
 print ("MATRIZ RESULTANTE")
 print(resultado)
+#ya esrta bien todo otra vez jajaj
