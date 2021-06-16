@@ -8,6 +8,7 @@ El programa realiza la multiplicación de matrices con la libreria numpy.
 
 En este programa logramos utilizar numpy gracias a esto pudimos mejor el tiempo de calculo de cada matriz así logramos implementarlo en nuestro codigo.
 
+Quieres conocer más información de numpu? Haz clic [aquí](https://numpy.org/doc/)
 
 Integrantes:
 - Mateo Vera
