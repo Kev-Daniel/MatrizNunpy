@@ -32,8 +32,10 @@ print("--------------------------------------------- ")
 print("Matriz 1")  
 print(M1)
 print("--------------------------------------------- ")
+
 #Ingreso de valores para la segunda Matriz
 print("Ingreso de valores de la segunda matriz: ")
+
 #For para el ingreso de valores en la filas y en la columna remplazando el 0 por un valor ingresado por el ususario
 for i in range (columna1):
   for j in range (columna2):
@@ -42,6 +44,7 @@ print("--------------------------------------------- ")
 print("Matriz 2")   
 print(M2)
 print("--------------------------------------------- ")
+
 #Multiplicación de las matrices
 resultado= np.dot(M1,M2)
 print ("MATRIZ RESULTANTE")
