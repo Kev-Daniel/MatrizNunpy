@@ -7,3 +7,5 @@ El programa realiza la multiplicación de matrices con la libreria numpy
 Integrantes
 Mateo Vera
 Kevin Veliz
+Lizbeth Garcia
+Kevin Pulupa
