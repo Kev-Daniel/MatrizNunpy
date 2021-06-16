@@ -1,6 +1,8 @@
 import numpy as np
 print("----- MULTIPLICACION DE MATRIZ -----")
+
 #Ususario ingresando las dimensiones de la matriz
+
 #Matriz N°1
 print("Matriz 1")
 fila=int(input("Ingrese el numero de filas: " ))
@@ -11,12 +13,14 @@ print("--------------------------------------------- ")
 print("Matriz 1")
 M1=np.zeros((fila, columna1))
 print(M1)
+
 #Matriz N°2
 print("--------------------------------------------- ")
 print("Matriz 2")
 M2= np.zeros((columna1,columna2))
 print(M2)
 print("--------------------------------------------- ")
+
 #Ingreso de valores de ususarios
 #Ingreso de valores primera matriz
 print("Ingreso de valores de la primera matriz: ")
